@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61d4b3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sandwich"
+        android:layout_width="370dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/colorbutton"
+        android:onClick="sandwich"
+        android:text="@string/text_boton_sandwich"
+        android:textColor="@color/colorcuart"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/descripcion"
+        android:layout_width="370dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorbutton"
+        android:onClick="descripcion"
+        android:text="@string/text_boton_sobre_nosotros"
+        android:textColor="@color/colorcuart"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sandwich" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="356dp"
+        android:layout_height="378dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/logo_local"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logofastfood" />
+</androidx.constraintlayout.widget.ConstraintLayout>

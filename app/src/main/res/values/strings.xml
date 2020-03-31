@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProyectoFastFood</string>
+    <string name="incial">Fast Food</string>
+    <string name="s_nosotros">Fast Food</string>
+    <string name="sandwiches">Sandwiches</string>
+    <string name="d_sandwiches">Detalle del Sandwich</string>
+    <string name="text_boton_sandwich">SANDWICHES</string>
+    <string name="text_boton_sobre_nosotros">SOBRE NOSOTROS</string>
+    <string name="logo_local">Logo</string>
+    <string name="informacion">SOMOS UNA EMPRESA CON MAS DE 10 AÑOS DE EXPERIENCIA REALIZANDO SANDWICHES! LOS MEJORES DE LA REGION, RICOS Y FRESCOS, DISFRUTA!!!</string>
+    <string name="item">BROMAS</string>
+    <string name="i_ejemplo">IMAGEN</string>
+    <string name="tv_nombre">Name</string>
+    <string name="tv_descripcion">Description</string>
+    <string name="tv_precio">$1010</string>
+    <string name="price">Precio:</string>
+</resources>
